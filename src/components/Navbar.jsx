@@ -13,6 +13,7 @@ const Navbar = () => {
       <div className='bridge'>
         <div className='navbar_wrapper'>
             <div><img src={discordlogo} className="discordlogo"/></div>
+           
             <div className="menu_handger">
               <button onClick={navToggler}>menu</button>
             </div>

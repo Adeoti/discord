@@ -14,6 +14,8 @@ const Footer = () => {
                 <div style={{display:'flex',  gap:'17px', marginTop:'20px'}}>
                     <img src={UsaLang} style={{height:'20px'}}/>
                 <span style={{fontSize:'13px'}}>English, USA</span>
+                <br/>
+                <a href="#" style={{color:'#fff', display:'block', fontWeight:'bold'}}>Adeoti </a>
                 </div>
             
             </div>

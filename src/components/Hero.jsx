@@ -14,7 +14,7 @@ const Hero = () => {
           <img src={herorightimg}/>
         </div>
       <div className='bridge'>
-        <div >
+        <div>
             <h2 className="hero__title">Imagine a place...</h2>
             <div className="hero__intro">
             <motion.p
