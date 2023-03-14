@@ -1,11 +1,11 @@
 import React from 'react'
 import HangImg from '../images/hangingimg.svg';
-import {motion as m} from 'framer-motion';
+import {motion} from 'framer-motion';
 const Hanging = () => {
   return (
     <div className='hanging'>
         <div className='bridge'>
-            <m.div className='hanging__grid' 
+        <motion.div className='belong__grid'
             initial={{scale:0.5, opacity:0, rotate:-90,}}
             whileInView={{scale:1, opacity:1, rotate:0,}}
             transition={{duration:1}}
@@ -22,7 +22,7 @@ const Hanging = () => {
                    <div className='hanging__img'>
                     <img src={HangImg} />
                 </div>
-            </m.div>
+            </motion.div>
         </div>
     </div>
   )

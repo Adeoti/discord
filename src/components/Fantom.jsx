@@ -5,10 +5,10 @@ const Fandom = () => {
   return (
     <div className='fandom'>
         <div className='bridge'>
-            <m.div className='fandom__grid'
-            initial={{x:500, scale:0.4, opacity:0.5}}
-            whileInView={{x:0, scale:1, opacity:1}}
-            transition={{duration:1.4}}
+            <m.div className='belong__grid'
+            initial={{scale:0.5, opacity:0, rotate:-90,}}
+            whileInView={{scale:1, opacity:1, rotate:0,}}
+            transition={{duration:1}}
             viewport={{once:true}}>
                 <div className='fandom__img'>
                     <img src={FandomImg} />
