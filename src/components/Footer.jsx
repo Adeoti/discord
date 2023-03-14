@@ -15,7 +15,7 @@ const Footer = () => {
                     <img src={UsaLang} style={{height:'20px'}}/>
                 <span style={{fontSize:'13px'}}>English, USA</span>
                 <br/>
-                <a href="#" style={{color:'#fff', display:'block', fontWeight:'bold'}}>Adeoti </a>
+                <a href="https://adeoti.netlify.app/" style={{color:'#fff', display:'block', fontWeight:'bold'}}>Adeoti </a>
                 </div>
             
             </div>
